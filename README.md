@@ -92,10 +92,8 @@ python scrap_tops.py
 | [Product 4](https://www.tops.co.th/en/otop-tongtinlalafarm-sweet-milk-tablets-15g-8857124514072) | (OTOP) TongtinLalafarm Sweet Milk Tablets 15g | Image Links | Properties description | 10.00 | / pcs. | Snacks & Desserts /// Candies & Chewing Gum /// Children's Candies | SKU 8857124514072 | OTOP Product | 15g |
 | [Product 5](https://www.tops.co.th/en/otop-tongtin-lalafarm-cocoa-milk-tablets-15g-8859639300102) | (OTOP) Tongtin Lalafarm Cocoa Milk Tablets 15g | Image Links | Properties description | 10.00 | / pcs. | Snacks & Desserts /// Candies & Chewing Gum /// Children's Candies | SKU 8859639300102 | OTOP Product | 15g |
 
-## Conclusion
-This script provides a robust solution for scraping product data from Tops.co.th, handling JavaScript-heavy elements, bot protections, and dynamically loaded content effectively. The structured approach ensures efficient and reliable data extraction.
-
----
-
-Feel free to contribute or raise issues in the repository!
+## Notes
+ - Ensure you have a stable internet connection while running the script.
+ - The script is designed to respect the website's load by avoiding unnecessary requests and reusing already scraped data.
+ - If the website structure changes, the XPaths and logic may need to be updated.
 
