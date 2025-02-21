@@ -93,6 +93,43 @@ python tops_scraper.py
 
 ## Sample Output (First 5 Products)
 
+[
+    {
+        "url": "https://www.tops.co.th/en/otop-doikham-savoury-strawberry-30g-8850773551115",
+        "name": "(OTOP) Doikham Savoury Strawberry 30g.",
+        "image_url": [
+            "https://assets.tops.co.th/DOIKHAM-DoikhamSavouryStrawberry30g-8850773551115-1?$JPEG$",
+            "https://assets.tops.co.th/DOIKHAM-DoikhamSavouryStrawberry30g-8850773551115-2?$JPEG$"
+        ],
+        "product_detail": "The product received may be subject to package modification and quantity from the manufacturer. We reserve the right to make any changes without prior notice. *The images used are for advertising purposes only.",
+        "price": "30.00",
+        "price_label": "/ pcs.",
+        "category": "Snacks & Desserts / Nuts & Dried Fruit / Dried Fruit",
+        "bar_code": "SKU 8850773551115",
+        "label": "OTOP Product",
+        "quantity": "30g"
+    },
+    {
+        "url": "https://www.tops.co.th/en/otop-doikham-dried-mango-140g-8850773550262",
+        "name": "(OTOP) Doikham Dried Mango 140g.",
+        "image_url": [
+            "https://assets.tops.co.th/DOIKHAM-DoikhamDriedMango140g-8850773550262-1?$JPEG$",
+            "https://assets.tops.co.th/DOIKHAM-DoikhamDriedMango140g-8850773550262-2?$JPEG$",
+            "https://assets.tops.co.th/DOIKHAM-DoikhamDriedMango140g-8850773550262-3?$JPEG$",
+            "https://assets.tops.co.th/DOIKHAM-DoikhamDriedMango140g-8850773550262-4?$JPEG$"
+        ],
+        "product_detail": "The product received may be subject to package modification and quantity from the manufacturer. We reserve the right to make any changes without prior notice. *The images used are for advertising purposes only.",
+        "price": "80.00",
+        "price_label": "/ pcs.",
+        "category": "Snacks & Desserts / Nuts & Dried Fruit / Dried Fruit",
+        "bar_code": "SKU 8850773550262",
+        "label": "OTOP Product",
+        "quantity": "140g"
+    }
+]
+
+
+
 ### `product_data.csv`
 | URL | Name | Image URL | Product Detail | Price | Price Label | Category | Barcode | Label | Quantity |
 |---|---|---|---|---|---|---|---|---|---|
