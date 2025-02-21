@@ -3,6 +3,16 @@
 ## Overview
 This script is designed to scrape product data from the [Tops.co.th](https://www.tops.co.th) website. It extracts key product details, such as name, image URL, price, category, barcode, and more. The script is optimized for JavaScript-heavy websites and efficiently avoids redundant requests by skipping already processed URLs.
 
+# Product Scraper
+
+This script is designed to scrape product URLs while ensuring that previously processed and failed URLs are not retried. It includes mechanisms to handle failures due to redirections and logs issues for future analysis.
+
+## Features
+- **Resumes from Last Successful Execution**: The script tracks completed URLs and avoids reprocessing them.
+- **Handles Redirect Failures**: URLs that failed due to redirections are excluded from future runs.
+- **Logs Failures for Analysis**: Instead of outright excluding redirected URLs, they are logged separately with timestamps to monitor if the issue persists.
+
+
 ## Approach Used for Scraping
 ### 1. **Sidebar Items Scraping**
 - Extracts sidebar items and their URLs from the main page.
