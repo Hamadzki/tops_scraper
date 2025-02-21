@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ### Step 3: Run the Script
 ```bash
-python scrap_tops.py
+python tops_scraper.py
 ```
 
 ## Challenges Faced & Solutions
